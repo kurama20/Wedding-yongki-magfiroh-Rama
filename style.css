@@ -34,9 +34,14 @@ body {
   text-shadow: var(--shadow);
 }
 .hero h2 {
+<<<<<<< HEAD
   margin-bottom: 10rem;
   font-family: "Sacramento", cursive;
   font-size: 3.5rem;
+=======
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
+>>>>>>> 8bdaf2889a847b2f6e072b1ea118c4d48d82edd9
   font-weight: bold;
   /* Memberikan ketebalan outline tipis */
   -webkit-text-stroke: #ffffff; 
@@ -45,6 +50,7 @@ body {
 }
 
 .hero h4 {
+  margin-top: -8rem;
   font-size: 1.6rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
                0px 0px 8px rgba(0, 0, 0, 0.8);
@@ -52,7 +58,11 @@ body {
 }
 
 .hero p {
+<<<<<<< HEAD
   margin-top: 5rem;
+=======
+  margin-top: 18rem;
+>>>>>>> 8bdaf2889a847b2f6e072b1ea118c4d48d82edd9
   font-size: 1.4rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
                0px 0px 8px rgba(0, 0, 0, 0.8);
