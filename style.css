@@ -605,6 +605,10 @@ footer li {
     font-size: 5.8rem;
   }
 
+  .hero h2 {
+    padding-bottom: 20rem;
+  }
+
   .simply-countdown > .simply-section {
     margin: 1px;
     font-size: 1.2rem;
