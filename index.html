@@ -36,7 +36,7 @@
     >
       <main>
         <h4>Kepada Bapak/Ibu/Saudara/Saudari : <span></span></h4>
-        <h1>Yongki Magfiroh & Akwal Ramdhan Rama Biwi</h1>
+        <h2>Yongki Magfiroh & Akwal Ramdhan Rama Biwi</h2>
         <p>Akan melangsungkan resepsi pernikahan dalam:</p>
         <div class="simply-countdown"></div>
         <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()"
@@ -94,9 +94,9 @@
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <h2 style="position: relative;
-  top: -210px;">Acara Pernikahan</h2>
+  top: -230px;">Acara Pernikahan</h2>
             <h3 style="position: relative;
-  top: -210px;">
+  top: -220px;">
               Diselenggarakan pada 11 Oktober 2026 di Linggapura, Lampung Tengah
             </h3>
             <p style="position: relative;
@@ -397,49 +397,55 @@ Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara
               />
             </a>-->
           </div>
+         <div class="col mt-3">
+  <!-- Tambahkan onclick untuk memicu modal custom -->
+  <a href="javascript:void(0);" onclick="openModal('img/tumbnail/13.PNG', 'Lukisan 1')">
+    <img
+      src="img/13.PNG"
+      alt="Wedding"
+      class="img-fluid w-100 rounded portrait-img"
+    />
+  </a>
+</div>
+
+<!-- Struktur Modal / Lightbox Custom untuk Close -->
+<div id="imageModal" class="custom-modal">
+  <img class="modal-content-img" id="img01">
+  <div id="caption"></div>
+</div>
           <div class="col mt-3">
-            <a
-              href="img/13.png"
-              data-toggle="lightbox"
-              data-caption="Rama & Yongki 3"
-              data-gallery="mygallery"
-            >
-              <img
-                src="img/tumbnail/13.png"
-                alt="Malioboro"
-                class="img-fluid w-100 rounded"
-              />
-            </a>
-          </div>
+  <!-- Tambahkan onclick untuk memicu modal custom -->
+  <a href="javascript:void(0);" onclick="openModal('img/tumbnail/14.PNG', 'Lukisan 2')">
+    <img
+      src="img/14.PNG"
+      alt="Wedding"
+      class="img-fluid w-100 rounded portrait-img"
+    />
+  </a>
+</div>
+
+<!-- Struktur Modal / Lightbox Custom untuk Close -->
+<div id="imageModal" class="custom-modal">
+  <img class="modal-content-img" id="img01">
+  <div id="caption"></div>
+</div>
           <div class="col mt-3">
-            <a
-              href="img/14.png"
-              data-toggle="lightbox"
-              data-caption="Rama & Yongki 4"
-              data-gallery="mygallery"
-            >
-              <img
-                src="img/tumbnail/14.png"
-                alt="Surakarta"
-                class="img-fluid w-100 rounded"
-              />
-            </a>
-          </div>
-          <div class="col mt-3">
-            <a
-              href="img/16.png"
-              data-toggle="lightbox"
-              data-caption="Rama & Yongki 5"
-              data-gallery="mygallery"
-            >
-              <img
-                src="img/tumbnail/16.png"
-                alt="BXSea"
-                class="img-fluid w-100 rounded"
-              />
-            </a>
-          </div>
-          <div class="col mt-3">
+  <!-- Tambahkan onclick untuk memicu modal custom -->
+  <a href="javascript:void(0);" onclick="openModal('img/tumbnail/16.PNG', 'Lukisan 3')">
+    <img
+      src="img/16.PNG"
+      alt="Wedding"
+      class="img-fluid w-100 rounded portrait-img"
+    />
+  </a>
+</div>
+
+<!-- Struktur Modal / Lightbox Custom untuk Close -->
+<div id="imageModal" class="custom-modal">
+  <img class="modal-content-img" id="img01">
+  <div id="caption"></div>
+</div>
+         <!-- <div class="col mt-3">
             <a
               href="img/17.png"
               data-toggle="lightbox"
@@ -452,21 +458,23 @@ Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara
                 class="img-fluid w-100 rounded"
               />
             </a>
-          </div>
-          <div class="col mt-3">
-            <a
-              href="img/18.png"
-              data-toggle="lightbox"
-              data-caption="Rama & Yongki 7"
-              data-gallery="mygallery"
-            >
-              <img
-                src="img/tumbnail/18.png"
-                alt="Puncak"
-                class="img-fluid w-100 rounded"
-              />
-            </a>
-          </div>
+          </div>-->
+         <div class="col mt-3">
+  <!-- Tambahkan onclick untuk memicu modal custom -->
+  <a href="javascript:void(0);" onclick="openModal('img/tumbnail/18.PNG', 'Lukisan 4')">
+    <img
+      src="img/18.PNG"
+      alt="Wedding"
+      class="img-fluid w-100 rounded portrait-img"
+    />
+  </a>
+</div>
+
+<!-- Struktur Modal / Lightbox Custom untuk Close -->
+<div id="imageModal" class="custom-modal">
+  <img class="modal-content-img" id="img01">
+  <div id="caption"></div>
+</div>
         </div>
       </div>
     </section>
@@ -802,5 +810,29 @@ Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan acara
 
       document.querySelector("#nama").value = nama;
     </script>
+    <script>// Fungsi untuk Membuka Modal
+function openModal(imgSrc, captionText) {
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("img01");
+  const captionTextElem = document.getElementById("caption");
+  
+  modal.style.display = "block";
+  modalImg.src = imgSrc;
+  captionTextElem.innerHTML = captionText;
+}
+
+// Fungsi untuk Menutup Modal saat tombol X diklik
+function closeModal() {
+  const modal = document.getElementById("imageModal");
+  modal.style.display = "none";
+}
+
+// Menutup modal jika pengguna mengklik area gelap di luar gambar
+window.onclick = function(event) {
+  const modal = document.getElementById("imageModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}</script>
   </body>
 </html>
