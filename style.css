@@ -17,7 +17,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%),url(img/2.jpeg);
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%),
+    url(img/2.jpeg);
   background-size: cover;
   background-position: center 56%;
   z-index: -1;
@@ -34,7 +36,6 @@ body {
   text-shadow: var(--shadow);
 }
 .hero h2 {
- 
   margin-bottom: 10rem;
   font-family: "Sacramento", cursive;
   font-size: 3.5rem;
@@ -44,34 +45,33 @@ body {
 
   font-weight: bold;
   /* Memberikan ketebalan outline tipis */
-  -webkit-text-stroke: #ffffff; 
+  -webkit-text-stroke: #ffffff;
   /* Memberikan bayangan hitam tipis agar teks lebih tegas dan terbaca */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero h4 {
-  margin-top: -8rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
 }
 
 .hero p {
-
-  margin-top: 5rem;
-
-  margin-top: 18rem;
+  margin-top: 1rem;
 
   font-size: 1.4rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
 }
 
 .hero a {
   color: var(--pink);
-  
+
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
   animation: pulse-animation 2s infinite; /* Menambahkan animasi berdenyut */
@@ -122,8 +122,8 @@ body {
 
 .home {
   background-image:
-  linear-gradient(to bottom, rgba(255, 255, 255, 0) 88%, #f5f5f5 100%),
-  url(img/11.PNG);
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 88%, #f5f5f5 100%),
+    url(img/11.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -149,12 +149,13 @@ body {
 .home h3 {
   color: #ffffff;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   position: relative;
   top: -160px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
 }
 
@@ -162,8 +163,9 @@ body {
   color: #ffffff;
   font-size: 1rem;
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
 }
 
@@ -181,8 +183,9 @@ body {
   font-size: 1rem;
   max-width: 200rem;
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
 }
 
@@ -190,13 +193,14 @@ body {
   width: 100%;
 }
 
-.home spain{
+.home spain {
   text-align: center;
   font-size: 1rem;
   max-width: 200rem;
   color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), 
-               0px 0px 8px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
   font-weight: 500; /* Mempertebal sedikit hurufnya */
   padding-bottom: 10rem;
 }
@@ -220,7 +224,7 @@ body {
 
 .info {
   background-color: #f5f5f5;
-  
+
   color: rgb(0, 0, 0);
   padding-top: 10rem;
   padding-bottom: 8rem;
@@ -520,7 +524,8 @@ footer li {
 @keyframes rotating {
   from {
     transform: rotate(0);
-  } to {
+  }
+  to {
     transform: rotate(360deg);
   }
 }
@@ -595,47 +600,51 @@ footer li {
   .hero h4 {
     padding-bottom: 10px;
   }
-  
+
   .hero h1 {
-  font-size: 5.8rem;
-}
+    font-size: 5.8rem;
+  }
 
- .simply-countdown > .simply-section {
-  margin: 1px;
-  font-size: 1.2rem;
-  padding: 6px 10px;
-  min-width: 20px;
-  background-color: rgba(0, 0, 0, 0.4); /* Contoh: hitam transparan agar angka putih lebih kontras */
-  border-radius: 5px; /* Opsional: membuat sudutnya agak melengkung */
-}
+  .simply-countdown > .simply-section {
+    margin: 1px;
+    font-size: 1.2rem;
+    padding: 6px 10px;
+    min-width: 20px;
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.4
+    ); /* Contoh: hitam transparan agar angka putih lebih kontras */
+    border-radius: 5px; /* Opsional: membuat sudutnya agak melengkung */
+  }
 
-/* Mengatur warna angka dan teks di dalam countdown agar terlihat jelas */
-.simply-countdown > .simply-section .simply-amount,
-.simply-countdown > .simply-section .simply-word {
-  color: #ffffff !important; /* Memaksa warna teks menjadi putih */
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); /* Memberikan efek bayangan agar tidak 'bocor' dengan background */
-}
+  /* Mengatur warna angka dan teks di dalam countdown agar terlihat jelas */
+  .simply-countdown > .simply-section .simply-amount,
+  .simply-countdown > .simply-section .simply-word {
+    color: #ffffff !important; /* Memaksa warna teks menjadi putih */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); /* Memberikan efek bayangan agar tidak 'bocor' dengan background */
+  }
 
   .mynavbar .offcanvas {
-  height: 100vh;
-  width: 45vh;
-}
-.timeline::before {
-  content: "";
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  width: 1px;
-  background-color: #ccc;
-  left: 20%;
-}
+    height: 100vh;
+    width: 45vh;
+  }
+  .timeline::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 1px;
+    background-color: #ccc;
+    left: 20%;
+  }
   .timeline li .timeline-image {
     width: 130px;
     height: 130px;
     left: 6%;
   }
 
-  
   .timeline li .timeline-panel {
     width: 58%;
     transform: translateX(-15px);
@@ -658,10 +667,10 @@ footer li {
   }
   .home .col-md-8 p {
     max-width: 450px; /* Mengecilkan lebar kotak teks agar lebih ringkas */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12rem; /* Menurunkan teks ke bawah */
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12rem; /* Menurunkan teks ke bawah */
+    text-align: center;
   }
   .home .couple h3 {
     text-align: center;
@@ -673,22 +682,21 @@ footer li {
     padding-left: 0;
     right: -60px;
   }
-  .home .heart{
-     width: 50px;
-  height: 50px;
-  background-color: white;
-  display: flex;
-  border-radius: 50%;
-  box-shadow: var(--shadow);
-  position: absolute;
-  top: 111.5rem;
-  left: 47%;
-   transform: translateX(-50%) translateY(65px);
+  .home .heart {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    position: absolute;
+    top: 111.5rem;
+    left: 47%;
+    transform: translateX(-50%) translateY(65px);
   }
   .home .heart i {
-  margin: auto;
-  color: var(--pink);
-  font-size: 2.5rem;
-}
-
+    margin: auto;
+    color: var(--pink);
+    font-size: 2.5rem;
+  }
 }
